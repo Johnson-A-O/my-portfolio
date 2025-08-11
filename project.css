@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mission{
+    width:100%;
+    background-color:lightgreen;
+margin:0;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+.search{
+    margin-left: 390px;
+    margin-top: 10px;
+    width: 83px;
+    margin-bottom: 0;
+    position: fixed;
+    top:0;
+    overflow:hidden;
+    z-index:1000;
+    padding-right: 18px;
+}
+h1{
+    margin-top: 420px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color:lightcoral;
+    border: 2px solid lightcoral;
+    padding: 4px;
+    border-radius: 100%;
+    width: 270px;
+    margin-left: 500px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+h6{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 40px;
+    padding:5px;
+}
+.pay{
+background-color:lightcoral;
+color: black;
+font-size: 20px;
+border: ;
+padding: 40px;
+margin-top: 0px;
+}
+h4{
+    font-size:smaller;
+    float:left;
+    background-color:green;
+    color:red;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightcoral;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+.nav{
+    margin-right: 30%;
+margin-left: 30%;
+background-color:#008010;
+border: 2px solid green;
+border-radius: 10px;
+margin-top: 0px;
+padding: 5px;
+}
+li a{
+text-decoration: none;
+list-style-type: none;
+padding:4px;
+font-size: 20px;
+color:coral;
+}
+.log{
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #008010;
+    color:coral;
+    padding:2px;
+    margin-top: 5px;
+}
+.mark{
+    margin-bottom:0px;
+    color:white;
+}
+.container{
+    max-width:100%;
+            transform: translate(-50%,-50%);
+            top: 35%;
+            left:50%;
+            margin: 0 auto;
+            overflow: hidden;
+            position: absolute;
+            margin-top: 40px;
+}
+body{
+    background-image: url(imh.jpeg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+}
+.image{
+    display: flex;
+    animation:slide 10s infinite;
+}
+@keyframes slide{
+    0%{transform: translateX(0%);}
+    20%{transform: translateX(-5%);}
+    35%{transform: translateX(-5%);}
+    50%{transform: translateX(-15%);}
+    60%{transform: translateX(-15%);}
+    100%{transform: translateX(-42%);}
+}
+.USSD{
+    color:white;
+    font-size: 30px;
+}
+.prime{
+    padding: 0px;
+    width: fit-content;
+    margin-bottom: 0px;
+}
+.primary{
+    background-color: yellowgreen;
+    padding: 50px;
+    animation: prime 10s infinite;
+    margin-bottom: 0px;
+    width: 1160px;
+}
+@keyframes prime{
+ 20%{ background-color:green;}
+ 50%{background-color: yellow;}
+ 70%{background-color:lightgoldenrodyellow;}
+ 100%{background-color: lightseagreen;}
+}
+.fine{
+    padding: 0px;
+width: fit-content;
+    margin: 0px;
+}
+.finance{
+    margin-top: 0%;
+    background-color:lightcoral;
+    padding: 50px;
+    animation: fine 10s infinite;
+    width: 1160px;
+    height: 230px;
+}
+@keyframes fine{
+20%{background-color:yellow;}
+50%{background-color: lightgoldenrodyellow;}
+70%{background-color: lightseagreen;}
+100%{background-color: green;}
+}
+.prive{
+    padding: 0px;
+    width: fit-content;
+    margin: 0px;
+}
+.privacy{
+    margin-top: 0%;
+    background-color: yellowgreen;
+    padding: 50px;
+    animation: prive 10s infinite;
+    width: 1160px;
+}
+@keyframes prive {
+    20%{background-color:lightgoldenrodyellow;}
+    50%{background-color:lightseagreen;}
+    70%{background-color:green;}
+    100%{background-color:yellow;} 
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+.mean{
+    padding: 40px;
+    font-size: 30px;
+}
+.mode{
+    padding: 40px;
+    font-size:3ch;
+}
+.median {
+    padding: 40px;
+    font-size: 30px;
+}
+.go{
+    text-decoration: none;
+    font-size: 25px;
+}
+.go:hover{
+    opacity: 0.2;
+}
+.last{
+    width:600px;
+    height:300px;
+    position:absolute;
+    background-color:white;
+    margin-top: 0px;
+    padding:0px;
+}
+.alast{
+    width: 595px;
+    height:300px ;
+    font-size:28px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+.bottom{
+   max-width: fit-content;
+    padding: 0;
+    margin: 0;
+    float: right;
+    position:relative;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.mobility{
+    max-width:100%;
+    position: fit-content;
+    margin: 0%;
+    overflow: hidden;
+}
+.mobile{
+    display: flex;
+    animation: mobile 19s infinite;
+}
+.mobility{
+    overflow: scroll;
+}
+.mobility::-webkit-scrollbar{
+    display: none;
+}
+@keyframes mobile{
+    0%{transform: translateX(0px);}
+    20%{transform: translateX(0px);}
+50%{transform: translateX(-1260px);}
+60%{transform: translateX(-1260px);}
+90%{transform: translateX(-2520px);}
+100%{transform: translateX(-2520px);}
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    padding-top: 0%;
+    background-color:white;
+    margin-top: 0px;
+}
+.text{
+   padding: 40px; 
+   color:black;
+   background-color: white;
+font-size: 20px;
+margin-bottom: 0.7px;
+}
+.card{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2px;
+    padding-bottom: 6px;
+}
+.spare{
+    overflow: hidden;
+max-width: fit-content;
+margin-top: 304px;
+}
+.spa{
+display: flex;
+    width: 120%;
+}
+.spark{
+    margin-right: 10px;
+    background-color: #808083;
+padding:20px;
+width: 400px;
+border-bottom: 2px solid green;
+font-size: 23px;
+}
+.spare{
+    overflow: scroll;
+}
+.spare::-webkit-scrollbar{
+display: none;
+}
+.agent{
+    padding: 40px; 
+    color:black;
+    background-color: white;
+ font-size: 20px;
+ border-bottom: 5px solid coral;
+}
+.Trustfund{
+    border-top:5px solid coral;
+}
+.know{
+color: green;
+}
+footer{
+    background-color:lightcoral;
+    width: 1233px;
+    margin-top:0px;
+    border-top: 5px solid black;
+    padding-left:30px;
+    bottom: 0px;
+}
+.social{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin:1rem 0 3rem 0rem;
+}
+.social li{
+    margin: 0 80px;
+}
+.social a{
+    text-decoration:none;
+}
+.social a i{
+    font-size: 40px;
+    transition: color .4s ease;
+    color: darkgreen;
+}
+.social a:hover i{
+    color: aqua;
+}
+.footer-content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 30px;
+margin-bottom: 0px;
+border-bottom: 2px solid black;
+padding-bottom: 0px;
+margin-right: 25px;
+}
+
